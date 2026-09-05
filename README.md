@@ -1,2 +1,2 @@
 # Jogo_AB_TCC
-Projeto do jogo Angry Birds (AB) para o TCC
+Protótipo do jogo Angry Birds (AB) para fins de estudo (TCC)
