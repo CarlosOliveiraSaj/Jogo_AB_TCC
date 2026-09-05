@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://biraets4y2iha"]
+
+[ext_resource type="Script" uid="uid://d0qqxr2viu7jl" path="res://scripts/birdsc.cs" id="1_3po83"]
+[ext_resource type="Texture2D" uid="uid://dcsuhc40c2xdg" path="res://assets/Red_AB.png" id="1_kqhkv"]
+
+[node name="bird" type="RigidBody2D" unique_id=1321783313]
+freeze = true
+script = ExtResource("1_3po83")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=956660456]
+scale = Vector2(0.6953125, 0.6875)
+texture = ExtResource("1_kqhkv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1547848740]
+position = Vector2(1, 1)
+scale = Vector2(0.9976853, 0.9755433)
+polygon = PackedVector2Array(-4.143553, -10.342939, 6.881962, -10.342939, 12.895891, -5.217607, 14.819113, 2.406631, 12.819109, 9.406615, 6.8190956, 13.406616, 0.86804414, 14.258728, -4.1809063, 13.406616, -9.180906, 10.406616, -12.180906, 5.406632, -12.162107, -0.092240095, -9.155149, -6.2426615)
+
+[node name="Trajectory" type="Line2D" parent="." unique_id=1150060467]
+width = 5.0
